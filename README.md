@@ -1,6 +1,6 @@
 # iOS Snippets
 
-Collection of snippets for iOS/macOS development.
+Collection of snippets for iOS/macOS development. To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext install ios-snippets`` and press enter.
 
 ## Swift
 
@@ -15,7 +15,7 @@ Collection of snippets for iOS/macOS development.
 
 Want to contribute? Sweet!
 
-1. Fork it.
+1. Fork it on [GitHub](https://github.com/ornithocoder/vscode-ios-snippets)
 1. Create a branch (`git checkout -b my_awesome_feature`)
 1. Commit your changes (`git commit -am "Add new awesome feature"`)
 1. Push to the branch (`git push origin my_awesome_feature`)
