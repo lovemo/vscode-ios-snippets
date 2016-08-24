@@ -1,0 +1,51 @@
+{
+	"RRSpec-like it": {
+		"prefix": "it",
+		"body": [
+			"it(@\"${enables/does/has/tells...}\") {",
+			"\t$0",
+			"}"
+		],
+		"description": "It block for tests in Swift"
+	},
+
+	"RSpec-like describe": {
+		"prefix": "describe",
+		"body": [
+			"describe(@\"${stuff to describe}\") {",
+			"\t$0",
+			"}"
+		],
+		"description": "Describe block for tests in Swift"
+	},
+
+	"RSpec-like context": {
+		"prefix": "context",
+		"body": [
+			"context(@\"${when...}\") {",
+			"\t$0",
+			"}"
+		],
+		"description": "Context block for tests in Swift"
+	},
+
+	"RSpec-like beforeEach": {
+		"prefix": "beforeEach",
+		"body": [
+			"beforeEach {",
+			"\t$0",
+			"}"
+		],
+		"description": "Before each block for tests in Swift"
+	},
+
+	"RSpec-like afterEach": {
+		"prefix": "afterEach",
+		"body": [
+			"afterEach {",
+			"\t$0",
+			"}"
+		],
+		"description": "After each block for tests in Swift"
+	}
+}

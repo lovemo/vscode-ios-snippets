@@ -1,0 +1,51 @@
+{
+	"RRSpec-like it": {
+		"prefix": "it",
+		"body": [
+			"it(@\"${enables/does/has/tells...}\", ^{",
+			"\t$0",
+			"});"
+		],
+		"description": "Specta/Quick/Cedar it block for tests in Objective-C"
+	},
+
+	"RSpec-like describe": {
+		"prefix": "describe",
+		"body": [
+			"describe(@\"${stuff to describe}\", ^{",
+			"\t$0",
+			"});"
+		],
+		"description": "Specta/Quick/Cedar describe block for tests in Objective-C"
+	},
+
+	"RSpec-like context": {
+		"prefix": "context",
+		"body": [
+			"context(@\"${when...}\", ^{",
+			"\t$0",
+			"});"
+		],
+		"description": "Specta/Quick/Cedar context block for tests in Objective-C"
+	},
+
+	"RSpec-like beforeEach": {
+		"prefix": "beforeEach",
+		"body": [
+			"beforeEach(^{",
+			"\t$0",
+			"});"
+		],
+		"description": "Specta/Quick/Cedar before each block for tests in Objective-C"
+	},
+
+	"RSpec-like afterEach": {
+		"prefix": "afterEach",
+		"body": [
+			"afterEach(^{",
+			"\t$0",
+			"});"
+		],
+		"description": "Specta/Quick/Cedar after each block for tests in Objective-C"
+	}
+}
