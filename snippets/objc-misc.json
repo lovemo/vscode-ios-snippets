@@ -5,5 +5,29 @@
 			"NSLog(@\"========> %@\", $1);"
 		],
 		"description": "Log output to console"
+	},
+
+	"Import Local Header": {
+		"prefix": "#import-local",
+		"body": [
+			"#import \"$0.h\""
+		],
+		"description": "Import Local Header"
+	},
+
+	"Import Framework Header": {
+		"prefix": "#import-framework",
+		"body": [
+			"#import <${framework name}/${header file}.h>"
+		],
+		"description": "Import Framework Header"
+	},
+
+	"Pragma Mark": {
+		"prefix": "#pragma",
+		"body": [
+			"#pragma mark - ${argument}"
+		],
+		"description": "Pragma Mark"
 	}
 }

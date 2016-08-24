@@ -32,6 +32,10 @@
                 "path": "./snippets/objc-fblocks.json"
             },
             {
+                "language": "objective-c",
+                "path": "./snippets/objc-classes.json"
+            },
+            {
                 "language": "swift",
                 "path": "./snippets/swift-testing.json"
             }
