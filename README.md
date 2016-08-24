@@ -5,11 +5,14 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
 ## Swift
 
 * TDD/BDD
+  * ``describe``, ``context``, ``it``, ``beforeEach``, ``afterEach``
 
 ## Objective-C
 
 * F* block syntax
+  * ``block-*``
 * TDD/BDD - Quick/Specta/Cedar
+  * ``describe``, ``context``, ``it``, ``beforeEach``, ``afterEach``
 
 # Contributing
 
