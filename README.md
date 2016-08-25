@@ -13,8 +13,8 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
 
 * Misc
   * ``func`` - Swift Function Statement
-  * ``mark`` - Mark (// MARK: - ....)
-  * ``singleton`` - Swift Singleton (static let sharedInstance....)
+  * ``mark`` - Mark (``// MARK: - ...``)
+  * ``singleton`` - Swift Singleton (``static let sharedInstance...``)
 
 * TDD/BDD
   * ``describe`` - Describe block for tests in Swift

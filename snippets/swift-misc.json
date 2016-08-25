@@ -14,7 +14,7 @@
 		"body": [
 		    "// MARK: - ${section}"
 		],
-		"description": "Mark (// MARK: - ....)"
+		"description": "Mark (// MARK: - ...)"
 	},
 
     "Swift Singleton": {
@@ -22,6 +22,6 @@
 		"body": [
 		    "static let sharedInstance : ${name} = ${name}()"
 		],
-		"description": "Swift Singleton (static let sharedInstance....)"
+		"description": "Swift Singleton (static let sharedInstance...)"
 	}
 }
