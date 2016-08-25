@@ -47,5 +47,15 @@
 		    "}"
 		],
 		"description": "Swift Struct"
+	},
+
+	"Swift Enumerated Type Declaration": {
+		"prefix": "enum",
+		"body": [
+		    "enum ${name}",
+		    "\tcase $0",
+		    "}"
+		],
+		"description": "Swift Enumerated Type Declaration"
 	}
 }

@@ -4,12 +4,13 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
 
 ## Swift
 
-* Classes, Protocols, and Structs
+* Classes, Protocols, Enums, and Structs
   * ``class`` - Swift Class
   * ``class-subclass`` - Swift Subclass
   * ``protocol`` - Swift Protocol
   * ``struct`` - Swift Struct
   * ``extension`` - Swift Extension
+  * ``enum`` - Swift Enumerated Type Declaration
 
 * Misc
   * ``func`` - Swift Function Statement
