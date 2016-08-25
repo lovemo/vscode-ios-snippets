@@ -20,9 +20,9 @@
 	"Block as a property": {
 		"prefix": "block-as-property",
 		"body": [
-			"@property (copy, nonatomic) ${returnType} (^${blockName})(${parameterTypes});"
+			"@property (copy, nonatomic, ${nullability}) ${returnType} (^${blockName})(${parameterTypes});"
 		],
-		"description": "Block as a property."
+		"description": "Block as a property"
 	},
 
 	"Block as a typedef": {

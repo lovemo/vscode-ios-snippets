@@ -35,14 +35,6 @@
 		"description": "Objective-C Category"
 	},
 
-	"Objective-C Property": {
-		"prefix": "@property",
-		"body": [
-			"@property (${memory}, ${atomicity}, ${nullability}) ${class name/type} ${property name};"
-		],
-		"description": "Objective-C Property"
-	},
-
 	"Objective-C Class Implementation": {
 		"prefix": "@implementation",
 		"body": [

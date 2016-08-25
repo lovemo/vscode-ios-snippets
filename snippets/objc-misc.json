@@ -12,7 +12,7 @@
 		"body": [
 			"#import \"${HeaderFile}.h\""
 		],
-		"description": "Import Local Header"
+		"description": "Import Local Header File"
 	},
 
 	"Import Framework Header": {
@@ -20,7 +20,16 @@
 		"body": [
 			"#import <${Framework}/${HeaderFile}.h>"
 		],
-		"description": "Import Framework Header"
+		"description": "Import Framework Header File"
+	},
+
+
+	"Objective-C Property": {
+		"prefix": "@property",
+		"body": [
+			"@property (${memory}, ${atomicity}, ${nullability}) ${class name/type} ${property name};"
+		],
+		"description": "Objective-C Property"
 	},
 
 	"Pragma Mark": {

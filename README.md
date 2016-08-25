@@ -5,16 +5,41 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
 ## Swift
 
 * TDD/BDD
-  * ``describe``, ``context``, ``it``, ``beforeEach``, ``afterEach``
+  * ``describe`` - Describe block for tests in Swift
+  * ``context`` - Context block for tests in Swift
+  * ``it`` - It block for tests in Swift
+  * ``beforeEach`` - Before Each block for tests in Swift
+  * ``afterEach`` - After Each block for tests in Swift
 
 ## Objective-C
 
 * F*block syntax
-  * ``block-*``
+  * ``block-as-local-variable`` - Block as a local variable
+  * ``block-as-method-parameter`` - Block as a method parameter
+  * ``block-as-property`` - Block as a property
+  * ``block-as-typedef`` - Block as a typedef
+  * ``block-as-argument-to-method-call`` - Block as an argument to a method call
+
 * TDD/BDD - Quick/Specta/Cedar
-  * ``describe``, ``context``, ``it``, ``beforeEach``, ``afterEach``
+  * ``describe`` - Describe block for tests in Objective-C
+  * ``context`` - Context block for tests in Objective-C
+  * ``it`` - It block for tests in Objective-C
+  * ``beforeEach`` - Before Each block for tests in Objective-C
+  * ``afterEach`` - After Each block for tests in Objective-C
+
+* Classes and Protocols
+  * ``@interface`` - Objective-C Class Declaration
+  * ``@interface-extension`` - Objective-C Class Extension
+  * ``@interface-category`` - Objective-C Category
+  * ``@implementation`` - Objective-C Class Implementation
+  * ``@implementation-category`` - Objective-C Category Definition
+  * ``@protocol`` - Objective-C Protocol Definition
+
 * Misc
-  * ``#import``, ``@interface-*``, ``@import-*``, ``@protocol``, ``@property``, ``#pragma``, etc...
+  * ``@property`` - Objective-C Property
+  * ``#import-local`` - Import Local Header File
+  * ``#import-framework`` - Import Framework Header File
+  * ``#pragma`` - Pragma Mark
 
 # Contributing
 
