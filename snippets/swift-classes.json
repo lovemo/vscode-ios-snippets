@@ -1,0 +1,31 @@
+{
+    "Swift Class": {
+		"prefix": "class",
+		"body": [
+		    "class ${name}",
+		    "\t${code}",
+		    "}"
+		],
+		"description": "Swift Class"
+	},
+
+    "Swift Subclass": {
+		"prefix": "class-subclass",
+		"body": [
+		    "class ${name}: ${superclass}",
+		    "\t${code}",
+		    "}"
+		],
+		"description": "Swift Subclass"
+	},
+
+    "Swift Protocol": {
+		"prefix": "protocol",
+		"body": [
+		    "protocol ${name}",
+		    "\t${requirements}",
+		    "}"
+		],
+		"description": "Swift Protocol"
+	}
+}

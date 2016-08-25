@@ -38,6 +38,14 @@
             {
                 "language": "swift",
                 "path": "./snippets/swift-testing.json"
+            },
+            {
+                "language": "swift",
+                "path": "./snippets/swift-classes.json"
+            },
+            {
+                "language": "swift",
+                "path": "./snippets/swift-misc.json"
             }
             ]
         }

@@ -1,0 +1,11 @@
+{
+    "Swift Function Statement": {
+		"prefix": "func",
+		"body": [
+		    "func ${name}(${parameters}) -> ${return type} {",
+		    "\t${function body}",
+		    "}"
+		],
+		"description": "Swift Function Statement"
+	}
+}

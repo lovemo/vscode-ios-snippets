@@ -4,6 +4,14 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
 
 ## Swift
 
+* Classes and Protocols
+  * ``class`` - Swift Class
+  * ``class-subclass`` - Swift Subclass
+  * ``protocol`` - Swift Protocol
+
+* Misc
+  * ``func`` - Swift Function Statement
+
 * TDD/BDD
   * ``describe`` - Describe block for tests in Swift
   * ``context`` - Context block for tests in Swift
@@ -12,20 +20,6 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
   * ``afterEach`` - After Each block for tests in Swift
 
 ## Objective-C
-
-* F*block syntax
-  * ``block-as-local-variable`` - Block as a local variable
-  * ``block-as-method-parameter`` - Block as a method parameter
-  * ``block-as-property`` - Block as a property
-  * ``block-as-typedef`` - Block as a typedef
-  * ``block-as-argument-to-method-call`` - Block as an argument to a method call
-
-* TDD/BDD - Quick/Specta/Cedar
-  * ``describe`` - Describe block for tests in Objective-C
-  * ``context`` - Context block for tests in Objective-C
-  * ``it`` - It block for tests in Objective-C
-  * ``beforeEach`` - Before Each block for tests in Objective-C
-  * ``afterEach`` - After Each block for tests in Objective-C
 
 * Classes and Protocols
   * ``@interface`` - Objective-C Class Declaration
@@ -40,6 +34,20 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
   * ``#import-local`` - Import Local Header File
   * ``#import-framework`` - Import Framework Header File
   * ``#pragma`` - Pragma Mark
+
+* TDD/BDD - Quick/Specta/Cedar
+  * ``describe`` - Describe block for tests in Objective-C
+  * ``context`` - Context block for tests in Objective-C
+  * ``it`` - It block for tests in Objective-C
+  * ``beforeEach`` - Before Each block for tests in Objective-C
+  * ``afterEach`` - After Each block for tests in Objective-C
+
+* F*block syntax
+  * ``block-as-local-variable`` - Block as a local variable
+  * ``block-as-method-parameter`` - Block as a method parameter
+  * ``block-as-property`` - Block as a property
+  * ``block-as-typedef`` - Block as a typedef
+  * ``block-as-argument-to-method-call`` - Block as an argument to a method call
 
 # Contributing
 
