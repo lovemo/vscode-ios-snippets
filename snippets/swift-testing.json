@@ -6,7 +6,7 @@
 			"\t$0",
 			"}"
 		],
-		"description": "It block for tests in Swift."
+		"description": "It block for tests in Swift"
 	},
 
 	"RSpec-like describe": {
@@ -16,7 +16,7 @@
 			"\t$0",
 			"}"
 		],
-		"description": "Describe block for tests in Swift."
+		"description": "Describe block for tests in Swift"
 	},
 
 	"RSpec-like context": {
@@ -26,7 +26,7 @@
 			"\t$0",
 			"}"
 		],
-		"description": "Context block for tests in Swift."
+		"description": "Context block for tests in Swift"
 	},
 
 	"RSpec-like beforeEach": {
@@ -36,7 +36,7 @@
 			"\t$0",
 			"}"
 		],
-		"description": "Before Each block for tests in Swift."
+		"description": "Before Each block for tests in Swift"
 	},
 
 	"RSpec-like afterEach": {
@@ -46,6 +46,6 @@
 			"\t$0",
 			"}"
 		],
-		"description": "After Each block for tests in Swift."
+		"description": "After Each block for tests in Swift"
 	}
 }

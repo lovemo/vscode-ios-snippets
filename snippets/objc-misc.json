@@ -4,7 +4,7 @@
 		"body": [
 			"NSLog(@\"========> %@\", $1);"
 		],
-		"description": "Log output to console."
+		"description": "Log output to console"
 	},
 
 	"Import Local Header": {
@@ -12,7 +12,7 @@
 		"body": [
 			"#import \"${HeaderFile}.h\""
 		],
-		"description": "Import Local Header."
+		"description": "Import Local Header"
 	},
 
 	"Import Framework Header": {
@@ -20,7 +20,7 @@
 		"body": [
 			"#import <${Framework}/${HeaderFile}.h>"
 		],
-		"description": "Import Framework Header."
+		"description": "Import Framework Header"
 	},
 
 	"Pragma Mark": {
@@ -28,6 +28,6 @@
 		"body": [
 			"#pragma mark - ${argument}"
 		],
-		"description": "Pragma Mark."
+		"description": "Pragma Mark"
 	}
 }
