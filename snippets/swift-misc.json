@@ -12,9 +12,25 @@
     "Mark": {
 		"prefix": "mark",
 		"body": [
-		    "// MARK: - ${section}"
+		    "// MARK: - ${description}"
 		],
 		"description": "Mark (// MARK: - ...)"
+	},
+
+    "To Do": {
+		"prefix": "todo",
+		"body": [
+		    "// TODO: ${description}"
+		],
+		"description": "To Do (// TODO: ...)"
+	},
+
+    "Fix Me": {
+		"prefix": "fixme",
+		"body": [
+		    "// FIXME: ${description}"
+		],
+		"description": "Fix Me (// FIXME: ...)"
 	},
 
     "Swift Singleton": {

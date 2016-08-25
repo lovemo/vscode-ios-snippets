@@ -15,6 +15,8 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
 * Misc
   * ``func`` - Swift Function Statement
   * ``mark`` - Mark (``// MARK: - ...``)
+  * ``todo`` - To Do (``// TODO: ...``)
+  * ``fixme`` - Fix Me (``// FIXME: ...``)
   * ``singleton`` - Swift Singleton (``static let sharedInstance...``)
 
 * TDD/BDD
