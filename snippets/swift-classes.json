@@ -27,5 +27,25 @@
 		    "}"
 		],
 		"description": "Swift Protocol"
+	},
+
+   "Swift Extension": {
+		"prefix": "extension",
+		"body": [
+		    "extension ${name}",
+		    "\t${code}",
+		    "}"
+		],
+		"description": "Swift Extension"
+	},
+
+	"Swift Struct": {
+		"prefix": "struct",
+		"body": [
+		    "struct ${name}",
+		    "\t${fields}",
+		    "}"
+		],
+		"description": "Swift Struct"
 	}
 }

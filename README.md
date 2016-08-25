@@ -4,13 +4,17 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
 
 ## Swift
 
-* Classes and Protocols
+* Classes, Protocols, and Structs
   * ``class`` - Swift Class
   * ``class-subclass`` - Swift Subclass
   * ``protocol`` - Swift Protocol
+  * ``struct`` - Swift Struct
+  * ``extension`` - Swift Extension
 
 * Misc
   * ``func`` - Swift Function Statement
+  * ``mark`` - Mark (// MARK: - ....)
+  * ``singleton`` - Swift Singleton (static let sharedInstance....)
 
 * TDD/BDD
   * ``describe`` - Describe block for tests in Swift

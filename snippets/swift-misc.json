@@ -7,5 +7,21 @@
 		    "}"
 		],
 		"description": "Swift Function Statement"
+	},
+
+    "Mark": {
+		"prefix": "mark",
+		"body": [
+		    "// MARK: - ${section}"
+		],
+		"description": "Mark (// MARK: - ....)"
+	},
+
+    "Swift Singleton": {
+		"prefix": "singleton",
+		"body": [
+		    "static let sharedInstance : ${name} = ${name}()"
+		],
+		"description": "Swift Singleton (static let sharedInstance....)"
 	}
 }
