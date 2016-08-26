@@ -23,7 +23,6 @@
 		"description": "Import Framework Header File"
 	},
 
-
 	"Objective-C Property": {
 		"prefix": "@property",
 		"body": [
@@ -38,5 +37,71 @@
 			"#pragma mark - ${argument}"
 		],
 		"description": "Pragma Mark"
+	},
+
+	"Do-While Statement": {
+		"prefix": "do",
+		"body": [
+		    "do {",
+			"\t${statements}",
+			"} while (${condition});"
+		],
+		"description": "Do-While Statement"
+	},
+
+	"For Statement": {
+		"prefix": "for",
+		"body": [
+		    "for (${initialization}; ${condition}; ${increment}) {",
+			"\t${statements}",
+			"}"
+		],
+		"description": "For Statement"
+	},
+
+	"If Statement": {
+		"prefix": "if",
+		"body": [
+		    "if (${condition}) {",
+			"\t${statements}",
+			"}"
+		],
+		"description": "If Statement"
+	},
+
+	"If-Else Statement": {
+		"prefix": "if-else",
+		"body": [
+		    "if (${condition}) {",
+			"\t${statementA}",
+			"} else {",
+			"\t${statementB}",
+			"}"
+		],
+		"description": "If-Else Statement"
+	},
+
+    "Enumerated Type Declaration (NS_ENUM)": {
+		"prefix": "enum",
+		"body": [
+		    "typedef NS_ENUM(NSUInteger, ${name}) {",
+			"\t${valueA},",
+			"\t${valueB},",
+			"\t${valueC},",
+			"};"
+		],
+		"description": "Enumerated Type Declaration (NS_ENUM)"
+	},
+
+    "Enumerated Type Declaration (NS_OPTIONS)": {
+		"prefix": "options",
+		"body": [
+		    "typedef NS_OPTIONS(NSUInteger, ${name}) {",
+			"\t${valueA} = 1 << 0,",
+			"\t${valueB} = 1 << 1,",
+			"\t${valueC} = 1 << 2,",
+			"};"
+		],
+		"description": "Enumerated Type Declaration (NS_OPTIONS)"
 	}
 }

@@ -41,6 +41,12 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
   * ``#import-local`` - Import Local Header File
   * ``#import-framework`` - Import Framework Header File
   * ``#pragma`` - Pragma Mark
+  * ``do`` - Do-While Statement
+  * ``for`` - For Statement
+  * ``if`` - If Statement
+  * ``if-else`` - If-Else Statement
+  * ``enum`` - Enumerated Type Declaration (``NS_ENUM``)
+  * ``options`` - Enumerated Type Declaration (``NS_OPTIONS``)
 
 * TDD/BDD - Quick/Specta/Cedar
   * ``describe`` - Describe block for tests in Objective-C
