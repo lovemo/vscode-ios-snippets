@@ -1,6 +1,8 @@
 # iOS Snippets
 
-Collection of snippets for iOS/macOS development. To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext install ios-snippets`` and press enter.
+Collection of snippets for iOS/macOS development. Visual Studio Code already includes support for Swift and Objective-C (grammar and language), so this extension is all you need to start coding.
+
+To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext install ios-snippets`` and press enter.
 
 ## Swift
 
@@ -94,7 +96,7 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
   * ``target`` - Target Declaration
   * ``post_install`` - Post Install
 
-In order to make these snippets to work, please edit your Visual Studio Code settings to load ``Podfiles`` are Ruby.
+In order to make the CocoaPods snippets to work, please edit your Visual Studio Code settings to load ``Podfile`` files as Ruby.
 
 ```json
     "files.associations": {
