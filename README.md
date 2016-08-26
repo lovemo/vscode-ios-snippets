@@ -65,12 +65,13 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
 
 ## Ruby. Ruby?
 
-* ``pod`` - Pod Declaration
-* ``pod-git-commit`` - Pod from Git Commit (SHA)
-* ``pod-git-tag`` - Pod from Git Tag
-* ``pod-local-disk`` - Pod from Local Disk
-* ``target`` - Target
-* ``post_install`` - Post Install
+* CocoaPods
+  * ``pod`` - Pod Declaration
+  * ``pod-git-commit`` - Pod from Git Commit (SHA)
+  * ``pod-git-tag`` - Pod from Git Tag
+  * ``pod-local-disk`` - Pod from Local Disk
+  * ``target`` - Target
+  * ``post_install`` - Post Install
 
 In order to make these snippets to work, please edit your Visual Studio Code settings to load ``Podfiles`` are Ruby.
 
