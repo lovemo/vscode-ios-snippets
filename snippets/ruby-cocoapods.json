@@ -1,0 +1,53 @@
+{
+	"Pod": {
+		"prefix": "pod",
+		"body": [
+			"pod '${name}', '~> ${version}'"
+		],
+		"description": "Pod Declaration"
+	},
+
+    "Pod from Git Commit": {
+		"prefix": "pod-git-commit",
+		"body": [
+			"pod '${name}', :git => '${repository}', :commit => '${sha}'"
+		],
+		"description": "Pod from Git Commit"
+	},
+
+    "Pod from Git Tag": {
+		"prefix": "pod-git-tag",
+		"body": [
+			"pod '${name}', :git => '${repository}', :tag => '${tag}'"
+		],
+		"description": "Pod from Git Tag"
+	},
+
+    "Pod from Local Disk": {
+		"prefix": "pod-local-disk",
+		"body": [
+			"pod '${name}', :path => '${path}'"
+		],
+		"description": "Pod from Local Disk"
+	},
+
+    "Target": {
+		"prefix": "target",
+		"body": [
+			"target '${name}' do",
+            "\t$0",
+            "end"
+		],
+		"description": "Target"
+	},
+
+    "Post Install": {
+		"prefix": "post_install",
+		"body": [
+			"post_install do |installer|",
+            "\t$0",
+            "end"
+		],
+		"description": "Post Install"
+	}
+}

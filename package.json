@@ -2,7 +2,7 @@
     "name": "ios-snippets",
         "displayName": "iOS Snippets",
         "description": "Snippets for iOS/macOS Development",
-        "version": "0.0.8",
+        "version": "0.0.9",
         "publisher": "ornithologist",
         "icon": "icon.png",
         "homepage": "https://github.com/ornithocoder/vscode-ios-snippets",
@@ -46,6 +46,10 @@
             {
                 "language": "swift",
                 "path": "./snippets/swift-misc.json"
+            },
+            {
+                "language": "ruby",
+                "path": "./snippets/ruby-cocoapods.json"
             }
             ]
         }
