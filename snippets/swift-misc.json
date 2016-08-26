@@ -6,7 +6,7 @@
 		    "\t${function body}",
 		    "}"
 		],
-		"description": "Swift Function Statement"
+		"description": "Swift Function Statement - iOS Snippets"
 	},
 
     "Mark": {
@@ -14,7 +14,7 @@
 		"body": [
 		    "// MARK: - ${description}"
 		],
-		"description": "Mark (// MARK: - ...)"
+		"description": "Mark (// MARK: - ...) - iOS Snippets"
 	},
 
     "To Do": {
@@ -22,7 +22,7 @@
 		"body": [
 		    "// TODO: ${description}"
 		],
-		"description": "To Do (// TODO: ...)"
+		"description": "To Do (// TODO: ...) - iOS Snippets"
 	},
 
     "Fix Me": {
@@ -30,7 +30,7 @@
 		"body": [
 		    "// FIXME: ${description}"
 		],
-		"description": "Fix Me (// FIXME: ...)"
+		"description": "Fix Me (// FIXME: ...) - iOS Snippets"
 	},
 
     "Swift Singleton": {
@@ -38,6 +38,222 @@
 		"body": [
 		    "static let sharedInstance : ${name} = ${name}()"
 		],
-		"description": "Swift Singleton (static let sharedInstance...)"
-	}
+		"description": "Swift Singleton (static let sharedInstance...) - iOS Snippets"
+	},
+
+    "Swift API Availability Check Statement": {
+		"prefix": "available",
+		"body": [
+		    "if #available(${platform name} ${version}, *) {",
+		    "\t${API available statements}" ,
+		    "} else {",
+		    "\t${fallback statements}",
+		    "}"
+		],
+		"description": "Swift API Availability Check Statement - iOS Snippets"
+	},
+
+    "Swift Closure Expression": {
+		"prefix": "closure",
+		"body": [
+		    "{ (${parameters}) -> ${return type} in",
+		    "\t${statements}",
+		    "}"
+		],
+		"description": "Swift Closure Expression - iOS Snippets"
+	},
+
+    "Swift Computed Constant Declaration": {
+		"prefix": "let-computed-constant",
+		"body": [
+		    "let ${property name}: ${type name} = {",
+		    "\t${statements}",
+			"\treturn ${value}",
+		    "}()"
+		],
+		"description": "Swift Computed Constant Declaration - iOS Snippets"
+	},
+
+   "Swift Computed Variable Get and Set Declaration": {
+		"prefix": "var-computed-variable-get-set",
+		"body": [
+		    "var ${variable name}: ${type} {",
+		    "get {",
+			"\t${statements}",
+		    "}",
+			"set {",
+			"\t${variable name} = newValue",
+			"}",
+			"}"
+		],
+		"description": "Swift Computed Variable Get and Set Declaration - iOS Snippets"
+	},
+
+   "Swift Computed Variable Get Declaration": {
+		"prefix": "var-computed-variable-get",
+		"body": [
+		    "var ${variable name}: ${type} {",
+			"\t${statements}",
+		    "}"
+		],
+		"description": "Swift Computed Variable Get Declaration - iOS Snippets"
+   },
+
+   "Swift Defer Statement": {
+		"prefix": "defer",
+		"body": [
+		    "defer {",
+			"\t${deferred statements}",
+		    "}"
+		],
+		"description": "Swift Defer Statement - iOS Snippets"
+   },
+
+   "Swift Do-Catch Statement": {
+		"prefix": "docatch",
+		"body": [
+		    "do {",
+			"\ttry ${throwing expression}",
+		    "} catch ${pattern} {",
+			"\t${statements}",
+		    "}"
+		],
+		"description": "Swift Do-Catch Statement - iOS Snippets"
+   },
+
+   "Swift For Statement": {
+		"prefix": "for",
+		"body": [
+		    "for ${item} in ${items} {",
+			"\t${code}",
+		    "}"
+		],
+		"description": "Swift For Statement - iOS Snippets"
+   },
+
+   "Swift Guard Statement": {
+		"prefix": "guard",
+		"body": [
+		    "guard ${condition} else {",
+			"\t${statements}",
+		    "}"
+		],
+		"description": "Swift Guard Statement - iOS Snippets"
+   },
+
+   "Swift Guard-Let Statement": {
+		"prefix": "guardlet",
+		"body": [
+		    "guard let ${constant} = ${expression} else { return ${return value} }"
+		],
+		"description": "Swift Guard-Let Statement - iOS Snippets"
+   },
+
+   "Swift If Statement": {
+		"prefix": "if",
+		"body": [
+		    "if ${condition} {",
+			"\t${code}",
+		    "}"
+		],
+		"description": "Swift If Statement - iOS Snippets"
+   },
+
+   "Swift If-Else Statement": {
+		"prefix": "ifelse",
+		"body": [
+		    "if ${condition} {",
+			"\t${statementA}",
+			"} else {", 
+			"\t${statementB}",
+		    "}"
+		],
+		"description": "Swift If-Else Statement - iOS Snippets"
+   },
+
+   "Swift If-Let Statement": {
+		"prefix": "iflet",
+		"body": [
+		    "if let ${constant name} = ${optional} {",
+			"\t${statements}",
+		    "}"
+		],
+		"description": "Swift If-Let Statement - iOS Snippets"
+   },
+
+   "Swift Initializer Declaration": {
+		"prefix": "init",
+		"body": [
+		    "init (${parameters}) {",
+			"\t${statements}",
+		    "}"
+		],
+		"description": "Swift Initializer Declaration - iOS Snippets"
+   },
+
+    "Swift Lazy Computed Property Declaration": {
+		"prefix": "var-lazy-computed-property",
+		"body": [
+		    "lazy var ${property name}: ${type name} = {",
+		    "\t${statements}",
+			"\treturn ${value}",
+		    "}()"
+		],
+		"description": "Swift Lazy Computed Property Declaration - iOS Snippets"
+	},
+
+    "Swift Lazy Stored Variable Declaration": {
+		"prefix": "var-lazy-variable",
+		"body": [
+		    "lazy var ${variable name} = ${expression}"
+		],
+		"description": "Swift Lazy Stored Variable Declaration - iOS Snippets"
+	},
+
+    "Swift Let Declaration": {
+		"prefix": "let",
+		"body": [
+		    "let ${name} = ${value}"
+		],
+		"description": "Swift Let Declaration - iOS Snippets"
+	},
+
+    "Swift Switch Statement": {
+		"prefix": "switch",
+		"body": [
+		    "switch ${value} {",
+			"case ${pattern}:",
+			"\t${codeA}",
+			"default:",
+			"\t${codeB}",
+			"}"
+		],
+		"description": "Swift Switch Statement - iOS Snippets"
+	},
+
+    "Swift Typealias Declaration": {
+		"prefix": "typealias",
+		"body": [
+		    "typealias ${type name} = ${type expression}"
+		],
+		"description": "Swift Typealias Declaration - iOS Snippets"
+	},
+
+	"Swift Var Declaration": {
+		"prefix": "var",
+		"body": [
+		    "var ${name} = ${value}"
+		],
+		"description": "Swift Var Declaration - iOS Snippets"
+	},
+
+	"Swift While Statement": {
+		"prefix": "while",
+		"body": [
+		    "while ${condition} {",
+			"\t${code}",
+			"}"
+		],
+		"description": "Swift While Statement - iOS Snippets"
+	}		
 }

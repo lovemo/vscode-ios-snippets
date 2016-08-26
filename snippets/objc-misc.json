@@ -4,7 +4,7 @@
 		"body": [
 			"NSLog(@\"========> %@\", $1);"
 		],
-		"description": "Log output to console"
+		"description": "Log output to console - iOS Snippets"
 	},
 
 	"Import Local Header": {
@@ -12,7 +12,7 @@
 		"body": [
 			"#import \"${HeaderFile}.h\""
 		],
-		"description": "Import Local Header File"
+		"description": "Import Local Header File - iOS Snippets"
 	},
 
 	"Import Framework Header": {
@@ -20,7 +20,7 @@
 		"body": [
 			"#import <${Framework}/${HeaderFile}.h>"
 		],
-		"description": "Import Framework Header File"
+		"description": "Import Framework Header File - iOS Snippets"
 	},
 
 	"Objective-C Property": {
@@ -28,7 +28,7 @@
 		"body": [
 			"@property (${memory}, ${atomicity}, ${nullability}) ${class name/type} ${property name};"
 		],
-		"description": "Objective-C Property"
+		"description": "Objective-C Property - iOS Snippets"
 	},
 
 	"Pragma Mark": {
@@ -36,7 +36,7 @@
 		"body": [
 			"#pragma mark - ${argument}"
 		],
-		"description": "Pragma Mark"
+		"description": "Pragma Mark - iOS Snippets"
 	},
 
 	"Do-While Statement": {
@@ -46,7 +46,7 @@
 			"\t${statements}",
 			"} while (${condition});"
 		],
-		"description": "Do-While Statement"
+		"description": "Do-While Statement - iOS Snippets"
 	},
 
 	"For Statement": {
@@ -56,7 +56,7 @@
 			"\t${statements}",
 			"}"
 		],
-		"description": "For Statement"
+		"description": "For Statement - iOS Snippets"
 	},
 
 	"If Statement": {
@@ -66,11 +66,11 @@
 			"\t${statements}",
 			"}"
 		],
-		"description": "If Statement"
+		"description": "If Statement - iOS Snippets"
 	},
 
 	"If-Else Statement": {
-		"prefix": "if-else",
+		"prefix": "ifelse",
 		"body": [
 		    "if (${condition}) {",
 			"\t${statementA}",
@@ -78,7 +78,7 @@
 			"\t${statementB}",
 			"}"
 		],
-		"description": "If-Else Statement"
+		"description": "If-Else Statement - iOS Snippets"
 	},
 
 	"Switch Statement": {
@@ -93,7 +93,7 @@
 			"\t} break;",
 			"}"
 		],
-		"description": "Switch Statement"
+		"description": "Switch Statement - iOS Snippets"
 	},
 
     "Enumerated Type Declaration (NS_ENUM)": {
@@ -105,7 +105,7 @@
 			"\t${valueC},",
 			"};"
 		],
-		"description": "Enumerated Type Declaration (NS_ENUM)"
+		"description": "Enumerated Type Declaration (NS_ENUM) - iOS Snippets"
 	},
 
     "Enumerated Type Declaration (NS_OPTIONS)": {
@@ -117,6 +117,6 @@
 			"\t${valueC} = 1 << 2,",
 			"};"
 		],
-		"description": "Enumerated Type Declaration (NS_OPTIONS)"
+		"description": "Enumerated Type Declaration (NS_OPTIONS) - iOS Snippets"
 	}
 }

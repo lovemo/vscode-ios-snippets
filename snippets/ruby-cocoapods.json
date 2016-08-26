@@ -4,7 +4,7 @@
 		"body": [
 			"pod '${name}', '~> ${version}'"
 		],
-		"description": "Pod Declaration"
+		"description": "Pod Declaration - iOS Snippets"
 	},
 
     "Pod from Git Commit": {
@@ -12,7 +12,7 @@
 		"body": [
 			"pod '${name}', :git => '${repository}', :commit => '${sha}'"
 		],
-		"description": "Pod from Git Commit"
+		"description": "Pod from Git Commit Declaration - iOS Snippets"
 	},
 
     "Pod from Git Tag": {
@@ -20,7 +20,7 @@
 		"body": [
 			"pod '${name}', :git => '${repository}', :tag => '${tag}'"
 		],
-		"description": "Pod from Git Tag"
+		"description": "Pod from Git Tag Declaration - iOS Snippets"
 	},
 
     "Pod from Local Disk": {
@@ -28,7 +28,7 @@
 		"body": [
 			"pod '${name}', :path => '${path}'"
 		],
-		"description": "Pod from Local Disk"
+		"description": "Pod from Local Disk Declaration - iOS Snippets"
 	},
 
     "Target": {
@@ -38,7 +38,7 @@
             "\t$0",
             "end"
 		],
-		"description": "Target"
+		"description": "Target Declaration - iOS Snippets"
 	},
 
     "Post Install": {
@@ -48,6 +48,6 @@
             "\t$0",
             "end"
 		],
-		"description": "Post Install"
+		"description": "Post Install - iOS Snippets"
 	}
 }

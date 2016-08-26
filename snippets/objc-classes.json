@@ -8,7 +8,7 @@
 			"",
 			"@end"
 		],
-		"description": "Objective-C Class Declaration"
+		"description": "Objective-C Class Declaration - iOS Snippets"
 	},
 
 	"Objective-C Class Extension": {
@@ -20,7 +20,7 @@
 			"",
 			"@end"
 		],
-		"description": "Objective-C Class Extension"
+		"description": "Objective-C Class Extension - iOS Snippets"
 	},
 
 	"Objective-C Category": {
@@ -32,7 +32,7 @@
 			"",
 			"@end"
 		],
-		"description": "Objective-C Category"
+		"description": "Objective-C Category - iOS Snippets"
 	},
 
 	"Objective-C Class Implementation": {
@@ -44,7 +44,7 @@
 			"",
 			"@end"
 		],
-		"description": "Objective-C Class Implementation"
+		"description": "Objective-C Class Implementation - iOS Snippets"
 	},
 
 	"Objective-C Category Implementation": {
@@ -56,7 +56,7 @@
 			"",
 			"@end"
 		],
-		"description": "Objective-C Category Definition"
+		"description": "Objective-C Category Definition - iOS Snippets"
 	},
 
 	"Objective-C Protocol Definition": {
@@ -68,6 +68,6 @@
 			"",
 			"@end"
 		],
-		"description": "Objective-C Protocol Definition"
+		"description": "Objective-C Protocol Definition - iOS Snippets"
 	}
 }

@@ -8,16 +8,37 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
   * ``class`` - Swift Class
   * ``class-subclass`` - Swift Subclass
   * ``protocol`` - Swift Protocol
-  * ``struct`` - Swift Struct
+  * ``struct`` - Swift Struct Declaration
   * ``extension`` - Swift Extension
   * ``enum`` - Swift Enumerated Type Declaration
 
 * Misc
-  * ``func`` - Swift Function Statement
-  * ``mark`` - Mark (``// MARK: - ...``)
-  * ``todo`` - To Do (``// TODO: ...``)
+  * ``available`` - Swift API Availability Check Statement
+  * ``closure`` - Swift Closure Expression
+  * ``defer`` - Swift Defer Statement
+  * ``docatch`` - Swift Do-Catch Statement
   * ``fixme`` - Fix Me (``// FIXME: ...``)
+  * ``for`` - Swift For Statement
+  * ``func`` - Swift Function Statement
+  * ``guard`` - Swift Guard Statement
+  * ``guardlet`` - Swift Guard-Let Statement
+  * ``if`` - Swift If Statement
+  * ``ifelse`` - Swift If-Else Statement
+  * ``iflet`` - Swift If-Let Statement
+  * ``init`` - Swift Initializer Declaration
+  * ``let`` - Swift Let Declaration
+  * ``let-computed-constant`` - Swift Computed Constant Declaration
+  * ``mark`` - Mark (``// MARK: - ...``)
   * ``singleton`` - Swift Singleton (``static let sharedInstance...``)
+  * ``switch`` - Swift Switch Statement
+  * ``todo`` - To Do (``// TODO: ...``)
+  * ``typealias`` - Swift Typealias Declaration
+  * ``var`` - Swift Var Declaration
+  * ``var-computed-variable-get-set`` - Swift Computed Variable Get and Set Declaration
+  * ``var-computed-variable-get`` - Swift Computed Variable Get Declaration
+  * ``var-lazy-computed-property`` - Swift Lazy Computed Property Declaration
+  * ``var-lazy-variable`` - Swift Lazy Stored Variable Declaration
+  * ``while`` - Swift While Statement
 
 * TDD/BDD
   * ``describe`` - Describe block for tests in Swift
@@ -44,7 +65,7 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
   * ``do`` - Do-While Statement
   * ``for`` - For Statement
   * ``if`` - If Statement
-  * ``if-else`` - If-Else Statement
+  * ``ifelse`` - If-Else Statement
   * ``switch`` - Switch Statement
   * ``enum`` - Enumerated Type Declaration (``NS_ENUM``)
   * ``options`` - Enumerated Type Declaration (``NS_OPTIONS``)
@@ -67,10 +88,10 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
 
 * CocoaPods
   * ``pod`` - Pod Declaration
-  * ``pod-git-commit`` - Pod from Git Commit (SHA)
-  * ``pod-git-tag`` - Pod from Git Tag
-  * ``pod-local-disk`` - Pod from Local Disk
-  * ``target`` - Target
+  * ``pod-git-commit`` - Pod from Git Commit (SHA) Declaration
+  * ``pod-git-tag`` - Pod from Git Tag Declaration
+  * ``pod-local-disk`` - Pod from Local Disk Declaration
+  * ``target`` - Target Declaration
   * ``post_install`` - Post Install
 
 In order to make these snippets to work, please edit your Visual Studio Code settings to load ``Podfiles`` are Ruby.
