@@ -45,6 +45,7 @@ Collection of snippets for iOS/macOS development. To install this extension, lau
   * ``for`` - For Statement
   * ``if`` - If Statement
   * ``if-else`` - If-Else Statement
+  * ``switch`` - Switch Statement
   * ``enum`` - Enumerated Type Declaration (``NS_ENUM``)
   * ``options`` - Enumerated Type Declaration (``NS_OPTIONS``)
 

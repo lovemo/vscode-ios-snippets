@@ -81,6 +81,21 @@
 		"description": "If-Else Statement"
 	},
 
+	"Switch Statement": {
+		"prefix": "switch",
+		"body": [
+		    "switch (${expression}) {",
+			"\tcase ${constant}: {",
+			"\t\t${statements}",
+			"\t} break;",
+			"",
+			"\tdefault: {",
+			"\t} break;",
+			"}"
+		],
+		"description": "Switch Statement"
+	},
+
     "Enumerated Type Declaration (NS_ENUM)": {
 		"prefix": "enum",
 		"body": [
