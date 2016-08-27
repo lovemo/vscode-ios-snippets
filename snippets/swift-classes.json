@@ -2,7 +2,7 @@
     "Swift Class": {
 		"prefix": "class",
 		"body": [
-		    "class ${name}",
+		    "class ${name} {",
 		    "\t${code}",
 		    "}"
 		],
@@ -12,7 +12,7 @@
     "Swift Subclass": {
 		"prefix": "class-subclass",
 		"body": [
-		    "class ${name}: ${superclass}",
+		    "class ${name}: ${superclass} {",
 		    "\t${code}",
 		    "}"
 		],
@@ -22,7 +22,7 @@
     "Swift Protocol": {
 		"prefix": "protocol",
 		"body": [
-		    "protocol ${name}",
+		    "protocol ${name} {",
 		    "\t${requirements}",
 		    "}"
 		],
@@ -32,7 +32,7 @@
    "Swift Extension": {
 		"prefix": "extension",
 		"body": [
-		    "extension ${name}",
+		    "extension ${name} {",
 		    "\t${code}",
 		    "}"
 		],
@@ -42,7 +42,7 @@
 	"Swift Struct Declaration": {
 		"prefix": "struct",
 		"body": [
-		    "struct ${name}",
+		    "struct ${name} {",
 		    "\t${fields}",
 		    "}"
 		],
@@ -52,7 +52,7 @@
 	"Swift Enumerated Type Declaration": {
 		"prefix": "enum",
 		"body": [
-		    "enum ${name}",
+		    "enum ${name} {",
 		    "\tcase $0",
 		    "}"
 		],

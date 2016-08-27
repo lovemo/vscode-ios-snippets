@@ -2,7 +2,7 @@
     "name": "ios-snippets",
         "displayName": "iOS Snippets",
         "description": "Snippets for iOS/macOS Development",
-        "version": "0.0.11",
+        "version": "0.0.12",
         "publisher": "ornithologist",
         "icon": "icon.png",
         "homepage": "https://github.com/ornithocoder/vscode-ios-snippets",
