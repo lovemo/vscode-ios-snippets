@@ -14,25 +14,28 @@ To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext instal
   * ``extension`` - Swift Extension
   * ``enum`` - Swift Enumerated Type Declaration
 
-* Misc
-  * ``available`` - Swift API Availability Check Statement
-  * ``closure`` - Swift Closure Expression
-  * ``defer`` - Swift Defer Statement
-  * ``docatch`` - Swift Do-Catch Statement
-  * ``fixme`` - Fix Me (``// FIXME: ...``)
+* Control Flow
   * ``for`` - Swift For Statement
-  * ``func`` - Swift Function Statement
-  * ``guard`` - Swift Guard Statement
-  * ``guardlet`` - Swift Guard-Let Statement
+  * ``while`` - Swift While Statement
+  * ``docatch`` - Swift Do-Catch Statement
   * ``if`` - Swift If Statement
   * ``ifelse`` - Swift If-Else Statement
   * ``iflet`` - Swift If-Let Statement
+  * ``switch`` - Swift Switch Statement
+  * ``available`` - Swift API Availability Check Statement
+  * ``guard`` - Swift Guard Statement
+  * ``guardlet`` - Swift Guard-Let Statement
+
+* Misc
+  * ``closure`` - Swift Closure Expression
+  * ``defer`` - Swift Defer Statement
+  * ``fixme`` - Fix Me (``// FIXME: ...``)
+  * ``func`` - Swift Function Statement
   * ``init`` - Swift Initializer Declaration
   * ``let`` - Swift Let Declaration
   * ``let-computed-constant`` - Swift Computed Constant Declaration
   * ``mark`` - Mark (``// MARK: - ...``)
   * ``singleton`` - Swift Singleton (``static let sharedInstance...``)
-  * ``switch`` - Swift Switch Statement
   * ``todo`` - To Do (``// TODO: ...``)
   * ``typealias`` - Swift Typealias Declaration
   * ``var`` - Swift Var Declaration
@@ -40,7 +43,6 @@ To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext instal
   * ``var-computed-variable-get`` - Swift Computed Variable Get Declaration
   * ``var-lazy-computed-property`` - Swift Lazy Computed Property Declaration
   * ``var-lazy-variable`` - Swift Lazy Stored Variable Declaration
-  * ``while`` - Swift While Statement
 
 * TDD/BDD
   * ``describe`` - Describe block for tests in Swift
@@ -59,17 +61,19 @@ To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext instal
   * ``@implementation-category`` - Objective-C Category Definition
   * ``@protocol`` - Objective-C Protocol Definition
 
-* Misc
-  * ``@property`` - Objective-C Property
-  * ``#import-local`` - Import Local Header File
-  * ``#import-framework`` - Import Framework Header File
-  * ``#pragma`` - Pragma Mark
+* Control Flow
   * ``do`` - Objective-C Do-While Statement
   * ``for`` - Objective-C For Statement
   * ``forin`` - Objective-C Fast Enumeration
   * ``if`` - Objective-C If Statement
   * ``ifelse`` - Objective-C If-Else Statement
   * ``switch`` - Objective-C Switch Statement
+
+* Misc
+  * ``@property`` - Objective-C Property
+  * ``#import-local`` - Import Local Header File
+  * ``#import-framework`` - Import Framework Header File
+  * ``#pragma`` - Pragma Mark
   * ``enum`` - Objective-C Enumerated Type Declaration (``NS_ENUM``)
   * ``options`` - Objective-C Enumerated Type Declaration (``NS_OPTIONS``)
   * ``init`` - Objective-C -init Method
