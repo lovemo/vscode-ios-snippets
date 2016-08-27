@@ -64,16 +64,19 @@ To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext instal
   * ``#import-local`` - Import Local Header File
   * ``#import-framework`` - Import Framework Header File
   * ``#pragma`` - Pragma Mark
-  * ``do`` - Do-While Statement
-  * ``for`` - For Statement
-  * ``if`` - If Statement
-  * ``ifelse`` - If-Else Statement
-  * ``switch`` - Switch Statement
-  * ``enum`` - Enumerated Type Declaration (``NS_ENUM``)
-  * ``options`` - Enumerated Type Declaration (``NS_OPTIONS``)
+  * ``do`` - Objective-C Do-While Statement
+  * ``for`` - Objective-C For Statement
+  * ``forin`` - Objective-C Fast Enumeration
+  * ``if`` - Objective-C If Statement
+  * ``ifelse`` - Objective-C If-Else Statement
+  * ``switch`` - Objective-C Switch Statement
+  * ``enum`` - Objective-C Enumerated Type Declaration (``NS_ENUM``)
+  * ``options`` - Objective-C Enumerated Type Declaration (``NS_OPTIONS``)
   * ``init`` - Objective-C -init Method
   * ``initWithCoder`` - Objective-C -initWithCoder: Method
   * ``initWithFrame`` - Objective-C -initWithFrame: Method
+  * ``debugDescription`` - Objective-C -debugDescription Method
+  * ``description`` - Objective-C -description Method
 
 * TDD/BDD - Quick/Specta/Cedar
   * ``describe`` - Describe block for tests in Objective-C

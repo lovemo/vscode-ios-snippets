@@ -39,37 +39,37 @@
 		"description": "Pragma Mark - iOS Snippets"
 	},
 
-	"Do-While Statement": {
+	"Objective-C Do-While Statement": {
 		"prefix": "do",
 		"body": [
 		    "do {",
 			"\t${statements}",
 			"} while (${condition});"
 		],
-		"description": "Do-While Statement - iOS Snippets"
+		"description": "Objective-C Do-While Statement - iOS Snippets"
 	},
 
-	"For Statement": {
+	"Objective-C For Statement": {
 		"prefix": "for",
 		"body": [
 		    "for (${initialization}; ${condition}; ${increment}) {",
 			"\t${statements}",
 			"}"
 		],
-		"description": "For Statement - iOS Snippets"
+		"description": "Objective-C For Statement - iOS Snippets"
 	},
 
-	"If Statement": {
+	"Objective-C If Statement": {
 		"prefix": "if",
 		"body": [
 		    "if (${condition}) {",
 			"\t${statements}",
 			"}"
 		],
-		"description": "If Statement - iOS Snippets"
+		"description": "Objective-C If Statement - iOS Snippets"
 	},
 
-	"If-Else Statement": {
+	"Objective-C If-Else Statement": {
 		"prefix": "ifelse",
 		"body": [
 		    "if (${condition}) {",
@@ -78,10 +78,10 @@
 			"\t${statementB}",
 			"}"
 		],
-		"description": "If-Else Statement - iOS Snippets"
+		"description": "Objective-C If-Else Statement - iOS Snippets"
 	},
 
-	"Switch Statement": {
+	"Objective-C Switch Statement": {
 		"prefix": "switch",
 		"body": [
 		    "switch (${expression}) {",
@@ -93,10 +93,10 @@
 			"\t} break;",
 			"}"
 		],
-		"description": "Switch Statement - iOS Snippets"
+		"description": "Objective-C Switch Statement - iOS Snippets"
 	},
 
-    "Enumerated Type Declaration (NS_ENUM)": {
+    "Objective-C Enumerated Type Declaration (NS_ENUM)": {
 		"prefix": "enum",
 		"body": [
 		    "typedef NS_ENUM(NSUInteger, ${name}) {",
@@ -105,10 +105,10 @@
 			"\t${valueC},",
 			"};"
 		],
-		"description": "Enumerated Type Declaration (NS_ENUM) - iOS Snippets"
+		"description": "Objective-C Enumerated Type Declaration (NS_ENUM) - iOS Snippets"
 	},
 
-    "Enumerated Type Declaration (NS_OPTIONS)": {
+    "Objective-C Enumerated Type Declaration (NS_OPTIONS)": {
 		"prefix": "options",
 		"body": [
 		    "typedef NS_OPTIONS(NSUInteger, ${name}) {",
@@ -117,7 +117,7 @@
 			"\t${valueC} = 1 << 2,",
 			"};"
 		],
-		"description": "Enumerated Type Declaration (NS_OPTIONS) - iOS Snippets"
+		"description": "Objective-C Enumerated Type Declaration (NS_OPTIONS) - iOS Snippets"
 	},
 
     "Objective-C -init Method": {
@@ -132,7 +132,7 @@
 			"\t}",
 			"",
 			"\treturn self;",
-			"};"
+			"}"
 		],
 		"description": "Objective-C -init Method - iOS Snippets"
 	},
@@ -149,7 +149,7 @@
 			"\t}",
 			"",
 			"\treturn self;",
-			"};"
+			"}"
 		],
 		"description": "Objective-C -initWithCoder: Method - iOS Snippets"
 	},
@@ -166,8 +166,40 @@
 			"\t}",
 			"",
 			"\treturn self;",
-			"};"
+			"}"
 		],
 		"description": "Objective-C -initWithFrame: Method - iOS Snippets"
-	}	
+	},
+
+    "Objective-C -debugDescription Method": {
+		"prefix": "debugDescription",
+		"body": [
+		    "- (NSString *)debugDescription",
+			"{",
+			"\treturn [NSString stringWithFormat:@\"<%@: %p> ${additional format string}\", [self class], self, ${additional arguments}];",
+			"}"
+		],
+		"description": "Objective-C -debugDescription Method - iOS Snippets"
+	},
+
+	"Objective-C -description Method": {
+		"prefix": "description",
+		"body": [
+		    "- (NSString *)description",
+			"{",
+			"\treturn [NSString stringWithFormat:@\"${format string}\", ${arguments}];",
+			"}"
+		],
+		"description": "Objective-C -description Method - iOS Snippets"
+	},
+
+	"Objective-C Fast Enumeration": {
+		"prefix": "forin",
+		"body": [
+		    "for (${type} *${object} in ${collection}) {",
+			"\t${statements}",
+			"}"
+		],
+		"description": "Objective-C Fast Enumeration - iOS Snippets"
+	}		
 }
