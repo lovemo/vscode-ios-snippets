@@ -118,5 +118,56 @@
 			"};"
 		],
 		"description": "Enumerated Type Declaration (NS_OPTIONS) - iOS Snippets"
-	}
+	},
+
+    "Objective-C -init Method": {
+		"prefix": "init",
+		"body": [
+		    "- (instancetype)init",
+			"{",
+			"\tself = [super init];",
+			"",
+			"\tif (self) {",
+			"\t\t${statements}",
+			"\t}",
+			"",
+			"\treturn self;",
+			"};"
+		],
+		"description": "Objective-C -init Method - iOS Snippets"
+	},
+
+    "Objective-C -initWithCoder: Method": {
+		"prefix": "initWithCoder",
+		"body": [
+		    "- (instancetype)initWithCoder:(NSCoder *)coder",
+			"{",
+			"\tself = [super initWithCoder:coder];",
+			"",
+			"\tif (self) {",
+			"\t\t${statements}",
+			"\t}",
+			"",
+			"\treturn self;",
+			"};"
+		],
+		"description": "Objective-C -initWithCoder: Method - iOS Snippets"
+	},
+
+    "Objective-C -initWithFrame: Method": {
+		"prefix": "initWithFrame",
+		"body": [
+		    "- (instancetype)initWithFrame:(CGRect)frame",
+			"{",
+			"\tself = [super initWithFrame:frame];",
+			"",
+			"\tif (self) {",
+			"\t\t${statements}",
+			"\t}",
+			"",
+			"\treturn self;",
+			"};"
+		],
+		"description": "Objective-C -initWithFrame: Method - iOS Snippets"
+	}	
 }

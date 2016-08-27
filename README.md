@@ -71,6 +71,9 @@ To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext instal
   * ``switch`` - Switch Statement
   * ``enum`` - Enumerated Type Declaration (``NS_ENUM``)
   * ``options`` - Enumerated Type Declaration (``NS_OPTIONS``)
+  * ``init`` - Objective-C -init Method
+  * ``initWithCoder`` - Objective-C -initWithCoder: Method
+  * ``initWithFrame`` - Objective-C -initWithFrame: Method
 
 * TDD/BDD - Quick/Specta/Cedar
   * ``describe`` - Describe block for tests in Objective-C
