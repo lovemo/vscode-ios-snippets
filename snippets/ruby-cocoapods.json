@@ -1,53 +1,48 @@
 {
-	"Pod": {
-		"prefix": "pod",
-		"body": [
-			"pod '${name}', '~> ${version}'"
-		],
-		"description": "Pod Declaration - iOS Snippets"
-	},
-
+    "Pod": {
+        "body": [
+            "pod '${name}', '~> ${version}'"
+        ],
+        "description": "CocoaPods Pod Declaration - iOS Snippets",
+        "prefix": "pod"
+    },
     "Pod from Git Commit": {
-		"prefix": "pod-git-commit",
-		"body": [
-			"pod '${name}', :git => '${repository}', :commit => '${sha}'"
-		],
-		"description": "Pod from Git Commit Declaration - iOS Snippets"
-	},
-
+        "body": [
+            "pod '${name}', :git => '${repository}', :commit => '${sha}'"
+        ],
+        "description": "CocoaPods Pod from Git Commit Declaration - iOS Snippets",
+        "prefix": "pod-git-commit"
+    },
     "Pod from Git Tag": {
-		"prefix": "pod-git-tag",
-		"body": [
-			"pod '${name}', :git => '${repository}', :tag => '${tag}'"
-		],
-		"description": "Pod from Git Tag Declaration - iOS Snippets"
-	},
-
+        "body": [
+            "pod '${name}', :git => '${repository}', :tag => '${tag}'"
+        ],
+        "description": "CocoaPods Pod from Git Tag Declaration - iOS Snippets",
+        "prefix": "pod-git-tag"
+    },
     "Pod from Local Disk": {
-		"prefix": "pod-local-disk",
-		"body": [
-			"pod '${name}', :path => '${path}'"
-		],
-		"description": "Pod from Local Disk Declaration - iOS Snippets"
-	},
-
-    "Target": {
-		"prefix": "target",
-		"body": [
-			"target '${name}' do",
-            "\t$0",
-            "end"
-		],
-		"description": "Target Declaration - iOS Snippets"
-	},
-
+        "body": [
+            "pod '${name}', :path => '${path}'"
+        ],
+        "description": "CocoaPods Pod from Local Disk Declaration - iOS Snippets",
+        "prefix": "pod-local-disk"
+    },
     "Post Install": {
-		"prefix": "post_install",
-		"body": [
-			"post_install do |installer|",
+        "body": [
+            "post_install do |installer|",
             "\t$0",
             "end"
-		],
-		"description": "Post Install - iOS Snippets"
-	}
+        ],
+        "description": "CocoaPods Post Install - iOS Snippets",
+        "prefix": "post_install"
+    },
+    "Target": {
+        "body": [
+            "target '${name}' do",
+            "\t$0",
+            "end"
+        ],
+        "description": "CocoaPods Target Declaration - iOS Snippets",
+        "prefix": "target"
+    }
 }

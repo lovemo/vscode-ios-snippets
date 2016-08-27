@@ -1,205 +1,188 @@
 {
-	"Print to console": {
-		"prefix": "log",
-		"body": [
-			"NSLog(@\"========> %@\", $1);"
-		],
-		"description": "Log output to console - iOS Snippets"
-	},
-
-	"Import Local Header": {
-		"prefix": "#import-local",
-		"body": [
-			"#import \"${HeaderFile}.h\""
-		],
-		"description": "Import Local Header File - iOS Snippets"
-	},
-
-	"Import Framework Header": {
-		"prefix": "#import-framework",
-		"body": [
-			"#import <${Framework}/${HeaderFile}.h>"
-		],
-		"description": "Import Framework Header File - iOS Snippets"
-	},
-
-	"Objective-C Property": {
-		"prefix": "@property",
-		"body": [
-			"@property (${memory}, ${atomicity}, ${nullability}) ${class name/type} ${property name};"
-		],
-		"description": "Objective-C Property - iOS Snippets"
-	},
-
-	"Pragma Mark": {
-		"prefix": "#pragma",
-		"body": [
-			"#pragma mark - ${argument}"
-		],
-		"description": "Pragma Mark - iOS Snippets"
-	},
-
-	"Objective-C Do-While Statement": {
-		"prefix": "do",
-		"body": [
-		    "do {",
-			"\t${statements}",
-			"} while (${condition});"
-		],
-		"description": "Objective-C Do-While Statement - iOS Snippets"
-	},
-
-	"Objective-C For Statement": {
-		"prefix": "for",
-		"body": [
-		    "for (${initialization}; ${condition}; ${increment}) {",
-			"\t${statements}",
-			"}"
-		],
-		"description": "Objective-C For Statement - iOS Snippets"
-	},
-
-	"Objective-C If Statement": {
-		"prefix": "if",
-		"body": [
-		    "if (${condition}) {",
-			"\t${statements}",
-			"}"
-		],
-		"description": "Objective-C If Statement - iOS Snippets"
-	},
-
-	"Objective-C If-Else Statement": {
-		"prefix": "ifelse",
-		"body": [
-		    "if (${condition}) {",
-			"\t${statementA}",
-			"} else {",
-			"\t${statementB}",
-			"}"
-		],
-		"description": "Objective-C If-Else Statement - iOS Snippets"
-	},
-
-	"Objective-C Switch Statement": {
-		"prefix": "switch",
-		"body": [
-		    "switch (${expression}) {",
-			"\tcase ${constant}: {",
-			"\t\t${statements}",
-			"\t} break;",
-			"",
-			"\tdefault: {",
-			"\t} break;",
-			"}"
-		],
-		"description": "Objective-C Switch Statement - iOS Snippets"
-	},
-
-    "Objective-C Enumerated Type Declaration (NS_ENUM)": {
-		"prefix": "enum",
-		"body": [
-		    "typedef NS_ENUM(NSUInteger, ${name}) {",
-			"\t${valueA},",
-			"\t${valueB},",
-			"\t${valueC},",
-			"};"
-		],
-		"description": "Objective-C Enumerated Type Declaration (NS_ENUM) - iOS Snippets"
-	},
-
-    "Objective-C Enumerated Type Declaration (NS_OPTIONS)": {
-		"prefix": "options",
-		"body": [
-		    "typedef NS_OPTIONS(NSUInteger, ${name}) {",
-			"\t${valueA} = 1 << 0,",
-			"\t${valueB} = 1 << 1,",
-			"\t${valueC} = 1 << 2,",
-			"};"
-		],
-		"description": "Objective-C Enumerated Type Declaration (NS_OPTIONS) - iOS Snippets"
-	},
-
-    "Objective-C -init Method": {
-		"prefix": "init",
-		"body": [
-		    "- (instancetype)init",
-			"{",
-			"\tself = [super init];",
-			"",
-			"\tif (self) {",
-			"\t\t${statements}",
-			"\t}",
-			"",
-			"\treturn self;",
-			"}"
-		],
-		"description": "Objective-C -init Method - iOS Snippets"
-	},
-
-    "Objective-C -initWithCoder: Method": {
-		"prefix": "initWithCoder",
-		"body": [
-		    "- (instancetype)initWithCoder:(NSCoder *)coder",
-			"{",
-			"\tself = [super initWithCoder:coder];",
-			"",
-			"\tif (self) {",
-			"\t\t${statements}",
-			"\t}",
-			"",
-			"\treturn self;",
-			"}"
-		],
-		"description": "Objective-C -initWithCoder: Method - iOS Snippets"
-	},
-
-    "Objective-C -initWithFrame: Method": {
-		"prefix": "initWithFrame",
-		"body": [
-		    "- (instancetype)initWithFrame:(CGRect)frame",
-			"{",
-			"\tself = [super initWithFrame:frame];",
-			"",
-			"\tif (self) {",
-			"\t\t${statements}",
-			"\t}",
-			"",
-			"\treturn self;",
-			"}"
-		],
-		"description": "Objective-C -initWithFrame: Method - iOS Snippets"
-	},
-
+    "Import Framework Header": {
+        "body": [
+            "#import <${Framework}/${HeaderFile}.h>"
+        ],
+        "description": "Import Framework Header File - iOS Snippets",
+        "prefix": "#import-framework"
+    },
+    "Import Local Header": {
+        "body": [
+            "#import \"${HeaderFile}.h\""
+        ],
+        "description": "Import Local Header File - iOS Snippets",
+        "prefix": "#import-local"
+    },
     "Objective-C -debugDescription Method": {
-		"prefix": "debugDescription",
-		"body": [
-		    "- (NSString *)debugDescription",
-			"{",
-			"\treturn [NSString stringWithFormat:@\"<%@: %p> ${additional format string}\", [self class], self, ${additional arguments}];",
-			"}"
-		],
-		"description": "Objective-C -debugDescription Method - iOS Snippets"
-	},
-
-	"Objective-C -description Method": {
-		"prefix": "description",
-		"body": [
-		    "- (NSString *)description",
-			"{",
-			"\treturn [NSString stringWithFormat:@\"${format string}\", ${arguments}];",
-			"}"
-		],
-		"description": "Objective-C -description Method - iOS Snippets"
-	},
-
-	"Objective-C Fast Enumeration": {
-		"prefix": "forin",
-		"body": [
-		    "for (${type} *${object} in ${collection}) {",
-			"\t${statements}",
-			"}"
-		],
-		"description": "Objective-C Fast Enumeration - iOS Snippets"
-	}		
+        "body": [
+            "- (NSString *)debugDescription",
+            "{",
+            "\treturn [NSString stringWithFormat:@\"<%@: %p> ${additional format string}\", [self class], self, ${additional arguments}];",
+            "}"
+        ],
+        "description": "Objective-C -debugDescription Method - iOS Snippets",
+        "prefix": "debugDescription"
+    },
+    "Objective-C -description Method": {
+        "body": [
+            "- (NSString *)description",
+            "{",
+            "\treturn [NSString stringWithFormat:@\"${format string}\", ${arguments}];",
+            "}"
+        ],
+        "description": "Objective-C -description Method - iOS Snippets",
+        "prefix": "description"
+    },
+    "Objective-C -init Method": {
+        "body": [
+            "- (instancetype)init",
+            "{",
+            "\tself = [super init];",
+            "",
+            "\tif (self) {",
+            "\t\t${statements}",
+            "\t}",
+            "",
+            "\treturn self;",
+            "}"
+        ],
+        "description": "Objective-C -init Method - iOS Snippets",
+        "prefix": "init"
+    },
+    "Objective-C -initWithCoder: Method": {
+        "body": [
+            "- (instancetype)initWithCoder:(NSCoder *)coder",
+            "{",
+            "\tself = [super initWithCoder:coder];",
+            "",
+            "\tif (self) {",
+            "\t\t${statements}",
+            "\t}",
+            "",
+            "\treturn self;",
+            "}"
+        ],
+        "description": "Objective-C -initWithCoder: Method - iOS Snippets",
+        "prefix": "initWithCoder"
+    },
+    "Objective-C -initWithFrame: Method": {
+        "body": [
+            "- (instancetype)initWithFrame:(CGRect)frame",
+            "{",
+            "\tself = [super initWithFrame:frame];",
+            "",
+            "\tif (self) {",
+            "\t\t${statements}",
+            "\t}",
+            "",
+            "\treturn self;",
+            "}"
+        ],
+        "description": "Objective-C -initWithFrame: Method - iOS Snippets",
+        "prefix": "initWithFrame"
+    },
+    "Objective-C Do-While Statement": {
+        "body": [
+            "do {",
+            "\t${statements}",
+            "} while (${condition});"
+        ],
+        "description": "Objective-C Do-While Statement - iOS Snippets",
+        "prefix": "do"
+    },
+    "Objective-C Enumerated Type Declaration (NS_ENUM)": {
+        "body": [
+            "typedef NS_ENUM(NSUInteger, ${name}) {",
+            "\t${valueA},",
+            "\t${valueB},",
+            "\t${valueC},",
+            "};"
+        ],
+        "description": "Objective-C Enumerated Type Declaration (NS_ENUM) - iOS Snippets",
+        "prefix": "enum"
+    },
+    "Objective-C Enumerated Type Declaration (NS_OPTIONS)": {
+        "body": [
+            "typedef NS_OPTIONS(NSUInteger, ${name}) {",
+            "\t${valueA} = 1 << 0,",
+            "\t${valueB} = 1 << 1,",
+            "\t${valueC} = 1 << 2,",
+            "};"
+        ],
+        "description": "Objective-C Enumerated Type Declaration (NS_OPTIONS) - iOS Snippets",
+        "prefix": "options"
+    },
+    "Objective-C Fast Enumeration": {
+        "body": [
+            "for (${type} *${object} in ${collection}) {",
+            "\t${statements}",
+            "}"
+        ],
+        "description": "Objective-C Fast Enumeration - iOS Snippets",
+        "prefix": "forin"
+    },
+    "Objective-C For Statement": {
+        "body": [
+            "for (${initialization}; ${condition}; ${increment}) {",
+            "\t${statements}",
+            "}"
+        ],
+        "description": "Objective-C For Statement - iOS Snippets",
+        "prefix": "for"
+    },
+    "Objective-C If Statement": {
+        "body": [
+            "if (${condition}) {",
+            "\t${statements}",
+            "}"
+        ],
+        "description": "Objective-C If Statement - iOS Snippets",
+        "prefix": "if"
+    },
+    "Objective-C If-Else Statement": {
+        "body": [
+            "if (${condition}) {",
+            "\t${statementA}",
+            "} else {",
+            "\t${statementB}",
+            "}"
+        ],
+        "description": "Objective-C If-Else Statement - iOS Snippets",
+        "prefix": "ifelse"
+    },
+    "Objective-C Property": {
+        "body": [
+            "@property (${memory}, ${atomicity}, ${nullability}) ${class name/type} ${property name};"
+        ],
+        "description": "Objective-C Property - iOS Snippets",
+        "prefix": "@property"
+    },
+    "Objective-C Switch Statement": {
+        "body": [
+            "switch (${expression}) {",
+            "\tcase ${constant}: {",
+            "\t\t${statements}",
+            "\t} break;",
+            "",
+            "\tdefault: {",
+            "\t} break;",
+            "}"
+        ],
+        "description": "Objective-C Switch Statement - iOS Snippets",
+        "prefix": "switch"
+    },
+    "Pragma Mark": {
+        "body": [
+            "#pragma mark - ${argument}"
+        ],
+        "description": "Pragma Mark - iOS Snippets",
+        "prefix": "#pragma"
+    },
+    "Print to console": {
+        "body": [
+            "NSLog(@\"========> %@\", $1);"
+        ],
+        "description": "Log output to console - iOS Snippets",
+        "prefix": "log"
+    }
 }

@@ -1,51 +1,61 @@
 {
-	"RRSpec-like it": {
-		"prefix": "it",
-		"body": [
-			"it(@\"${enables/does/has/tells...}\", ^{",
-			"\t$0",
-			"});"
-		],
-		"description": "It block for tests in Objective-C - iOS Snippets"
-	},
-
-	"RSpec-like describe": {
-		"prefix": "describe",
-		"body": [
-			"describe(@\"${stuff to describe}\", ^{",
-			"\t$0",
-			"});"
-		],
-		"description": "Describe block for tests in Objective-C - iOS Snippets"
-	},
-
-	"RSpec-like context": {
-		"prefix": "context",
-		"body": [
-			"context(@\"${when...}\", ^{",
-			"\t$0",
-			"});"
-		],
-		"description": "Context block for tests in Objective-C - iOS Snippets"
-	},
-
-	"RSpec-like beforeEach": {
-		"prefix": "beforeEach",
-		"body": [
-			"beforeEach(^{",
-			"\t$0",
-			"});"
-		],
-		"description": "Before Each block for tests in Objective-C - iOS Snippets"
-	},
-
-	"RSpec-like afterEach": {
-		"prefix": "afterEach",
-		"body": [
-			"afterEach(^{",
-			"\t$0",
-			"});"
-		],
-		"description": "After Each block for tests in Objective-C - iOS Snippets"
-	}
+    "Expecta Expectation": {
+        "body": [
+            "expect($1).$2.$3;"
+        ],
+        "description": "Expecta Expectation - iOS Snippets",
+        "prefix": "expect"
+    },
+    "OCMock Mock Class": {
+        "body": [
+            "${class name} *${name} = OCMClassMock([${class name} class]);"
+        ],
+        "description": "OCMock Mock Class - iOS Snippets",
+        "prefix": "mock"
+    },
+    "RSpec-like afterEach": {
+        "body": [
+            "afterEach(^{",
+            "\t$0",
+            "});"
+        ],
+        "description": "After Each block for tests in Objective-C - iOS Snippets",
+        "prefix": "afterEach"
+    },
+    "RSpec-like beforeEach": {
+        "body": [
+            "beforeEach(^{",
+            "\t$0",
+            "});"
+        ],
+        "description": "Before Each block for tests in Objective-C - iOS Snippets",
+        "prefix": "beforeEach"
+    },
+    "RSpec-like context": {
+        "body": [
+            "context(@\"${when...}\", ^{",
+            "\t$0",
+            "});"
+        ],
+        "description": "Context block for tests in Objective-C - iOS Snippets",
+        "prefix": "context"
+    },
+    "RSpec-like describe": {
+        "body": [
+            "describe(@\"${stuff to describe}\", ^{",
+            "\t$0",
+            "});"
+        ],
+        "description": "Describe block for tests in Objective-C - iOS Snippets",
+        "prefix": "describe"
+    },
+    "RSpec-like it": {
+        "body": [
+            "it(@\"${enables/does/has/tells...}\", ^{",
+            "\t$0",
+            "});"
+        ],
+        "description": "It block for tests in Objective-C - iOS Snippets",
+        "prefix": "it"
+    }
 }

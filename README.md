@@ -88,6 +88,8 @@ To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext instal
   * ``it`` - It block for tests in Objective-C
   * ``beforeEach`` - Before Each block for tests in Objective-C
   * ``afterEach`` - After Each block for tests in Objective-C
+  * ``expect`` - Expecta Expectation
+  * ``mock`` - OCMock Mock Class
 
 * F*block syntax
   * ``block-as-local-variable`` - Block as a local variable
@@ -99,12 +101,12 @@ To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext instal
 ## Ruby. Ruby?
 
 * CocoaPods
-  * ``pod`` - Pod Declaration
-  * ``pod-git-commit`` - Pod from Git Commit (SHA) Declaration
-  * ``pod-git-tag`` - Pod from Git Tag Declaration
-  * ``pod-local-disk`` - Pod from Local Disk Declaration
-  * ``target`` - Target Declaration
-  * ``post_install`` - Post Install
+  * ``pod`` - CocoaPods Pod Declaration
+  * ``pod-git-commit`` - CocoaPods Pod from Git Commit (SHA) Declaration
+  * ``pod-git-tag`` - CocoaPods Pod from Git Tag Declaration
+  * ``pod-local-disk`` - CocoaPods Pod from Local Disk Declaration
+  * ``target`` - CocoaPods Target Declaration
+  * ``post_install`` - CocoaPods Post Install
 
 In order to make the CocoaPods snippets to work, please edit your Visual Studio Code settings to load ``Podfile`` files as Ruby.
 
