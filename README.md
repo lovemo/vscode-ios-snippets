@@ -114,6 +114,14 @@ Want to contribute? Sweet!
 1. Push to the branch (`git push origin my_awesome_feature`)
 1. Open a Pull Request
 
+# Snippets disambiguation
+
+There's an [issue submitted for Visual Studio Code](https://github.com/Microsoft/vscode/issues/11050) to display the name of the extension when there's a conflict between two or more shortcuts.
+
+For now, to pick the snippet bundled in this extension, look for "iOS Snippets" on the hint box as shown below.
+
+![readme](https://cloud.githubusercontent.com/assets/19753339/18027052/0a5d392a-6c59-11e6-9722-e5a81199696b.png)
+
 # License
 
 Copyright (c) 2016 Ornithologist Coder. All rights reserved.
