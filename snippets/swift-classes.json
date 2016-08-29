@@ -5,7 +5,7 @@
             "\t${code}",
             "}"
         ],
-        "description": "Swift Class - iOS Snippets",
+        "description": "Swift Class",
         "prefix": "class"
     },
     "Swift Enumerated Type Declaration": {
@@ -14,7 +14,7 @@
             "\tcase $0",
             "}"
         ],
-        "description": "Swift Enumerated Type Declaration - iOS Snippets",
+        "description": "Swift Enumerated Type Declaration",
         "prefix": "enum"
     },
     "Swift Extension": {
@@ -23,7 +23,7 @@
             "\t${code}",
             "}"
         ],
-        "description": "Swift Extension - iOS Snippets",
+        "description": "Swift Extension",
         "prefix": "extension"
     },
     "Swift Protocol": {
@@ -32,7 +32,7 @@
             "\t${requirements}",
             "}"
         ],
-        "description": "Swift Protocol - iOS Snippets",
+        "description": "Swift Protocol",
         "prefix": "protocol"
     },
     "Swift Struct Declaration": {
@@ -41,7 +41,7 @@
             "\t${fields}",
             "}"
         ],
-        "description": "Swift Struct Declaration - iOS Snippets",
+        "description": "Swift Struct Declaration",
         "prefix": "struct"
     },
     "Swift Subclass": {
@@ -50,7 +50,7 @@
             "\t${code}",
             "}"
         ],
-        "description": "Swift Subclass - iOS Snippets",
+        "description": "Swift Subclass",
         "prefix": "class-subclass"
     }
 }

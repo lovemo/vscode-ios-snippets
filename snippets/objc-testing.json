@@ -3,14 +3,14 @@
         "body": [
             "expect($1).$2.$3;"
         ],
-        "description": "Expecta Expectation - iOS Snippets",
+        "description": "Expecta Expectation",
         "prefix": "expect"
     },
     "OCMock Mock Class": {
         "body": [
             "${class name} *${name} = OCMClassMock([${class name} class]);"
         ],
-        "description": "OCMock Mock Class - iOS Snippets",
+        "description": "OCMock Mock Class",
         "prefix": "mock"
     },
     "RSpec-like afterEach": {
@@ -19,7 +19,7 @@
             "\t$0",
             "});"
         ],
-        "description": "After Each block for tests in Objective-C - iOS Snippets",
+        "description": "Quick/Specta/Cedar After Each Block ",
         "prefix": "afterEach"
     },
     "RSpec-like beforeEach": {
@@ -28,7 +28,7 @@
             "\t$0",
             "});"
         ],
-        "description": "Before Each block for tests in Objective-C - iOS Snippets",
+        "description": "Quick/Specta/Cedar Before Each Block ",
         "prefix": "beforeEach"
     },
     "RSpec-like context": {
@@ -37,7 +37,7 @@
             "\t$0",
             "});"
         ],
-        "description": "Context block for tests in Objective-C - iOS Snippets",
+        "description": "Quick/Specta/Cedar Context Block ",
         "prefix": "context"
     },
     "RSpec-like describe": {
@@ -46,7 +46,7 @@
             "\t$0",
             "});"
         ],
-        "description": "Describe block for tests in Objective-C - iOS Snippets",
+        "description": "Quick/Specta/Cedar Describe Block ",
         "prefix": "describe"
     },
     "RSpec-like it": {
@@ -55,7 +55,7 @@
             "\t$0",
             "});"
         ],
-        "description": "It block for tests in Objective-C - iOS Snippets",
+        "description": "Quick/Specta/Cedar It Block ",
         "prefix": "it"
     }
 }

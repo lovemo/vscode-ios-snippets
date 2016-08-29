@@ -5,7 +5,7 @@
             "\t$0",
             "}"
         ],
-        "description": "After Each block for tests in Swift - iOS Snippets",
+        "description": "Quick After Each Block",
         "prefix": "afterEach"
     },
     "RSpec-like beforeEach": {
@@ -14,7 +14,7 @@
             "\t$0",
             "}"
         ],
-        "description": "Before Each block for tests in Swift - iOS Snippets",
+        "description": "Quick Before Each Block",
         "prefix": "beforeEach"
     },
     "RSpec-like context": {
@@ -23,7 +23,7 @@
             "\t$0",
             "}"
         ],
-        "description": "Context block for tests in Swift - iOS Snippets",
+        "description": "Quick Context Block",
         "prefix": "context"
     },
     "RSpec-like describe": {
@@ -32,7 +32,7 @@
             "\t$0",
             "}"
         ],
-        "description": "Describe block for tests in Swift - iOS Snippets",
+        "description": "Quick Describe Block",
         "prefix": "describe"
     },
     "RSpec-like it": {
@@ -41,7 +41,7 @@
             "\t$0",
             "}"
         ],
-        "description": "It block for tests in Swift - iOS Snippets",
+        "description": "Quick It Block",
         "prefix": "it"
     }
 }

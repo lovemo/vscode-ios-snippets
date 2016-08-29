@@ -1,8 +1,10 @@
 # iOS Snippets
 
-Collection of snippets for iOS/macOS development. Visual Studio Code already includes support for Swift and Objective-C (grammar and language), so this extension is all you need to start coding.
+**iOS Snippets** is a collection of code snippets for iOS/macOS development. And since Visual Studio Code already provides support Swift and Objective-C (grammar and language), this extension is all you need to start coding.
 
 To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext install ios-snippets`` and press enter.
+
+Below, all the snippets bundled in this extension. Fell free to propose new snippets using the [issues](https://github.com/ornithocoder/vscode-ios-snippets/issues) or [pull requests](https://github.com/ornithocoder/vscode-ios-snippets/pulls) pages.
 
 ## Swift
 
@@ -44,12 +46,12 @@ To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext instal
   * ``var-lazy-computed-property`` - Swift Lazy Computed Property Declaration
   * ``var-lazy-variable`` - Swift Lazy Stored Variable Declaration
 
-* TDD/BDD
-  * ``describe`` - Describe block for tests in Swift
-  * ``context`` - Context block for tests in Swift
-  * ``it`` - It block for tests in Swift
-  * ``beforeEach`` - Before Each block for tests in Swift
-  * ``afterEach`` - After Each block for tests in Swift
+* Testing
+  * ``describe`` - Quick Describe Block
+  * ``context`` - Quick Context Block
+  * ``it`` - Quick It Block
+  * ``beforeEach`` - Quick Before Each Block
+  * ``afterEach`` - Quick After Each Block
 
 ## Objective-C
 
@@ -82,12 +84,12 @@ To install this extension, launch VS Code Quick Open (⌘+P), paste ``ext instal
   * ``debugDescription`` - Objective-C -debugDescription Method
   * ``description`` - Objective-C -description Method
 
-* TDD/BDD - Quick/Specta/Cedar
-  * ``describe`` - Describe block for tests in Objective-C
-  * ``context`` - Context block for tests in Objective-C
-  * ``it`` - It block for tests in Objective-C
-  * ``beforeEach`` - Before Each block for tests in Objective-C
-  * ``afterEach`` - After Each block for tests in Objective-C
+* Testing
+  * ``describe`` - Quick/Specta/Cedar Describe Block
+  * ``context`` - Quick/Specta/Cedar Context Block
+  * ``it`` - Quick/Specta/Cedar It Block
+  * ``beforeEach`` - Quick/Specta/Cedar Before Each Block
+  * ``afterEach`` - Quick/Specta/Cedar After Each Block
   * ``expect`` - Expecta Expectation
   * ``mock`` - OCMock Mock Class
 
@@ -121,18 +123,10 @@ In order to make the CocoaPods snippets to work, please edit your Visual Studio 
 Want to contribute? Sweet!
 
 1. Fork it on [GitHub](https://github.com/ornithocoder/vscode-ios-snippets)
-1. Create a branch (`git checkout -b my_awesome_feature`)
-1. Commit your changes (`git commit -am "Add new awesome feature"`)
-1. Push to the branch (`git push origin my_awesome_feature`)
+1. Create a branch (`git checkout -b my_awesome_snippet`)
+1. Commit your changes (`git commit -am "Add new awesome snippet"`)
+1. Push to the branch (`git push origin my_awesome_snippet`)
 1. Open a Pull Request
-
-# Snippets disambiguation
-
-There's an [issue submitted for Visual Studio Code](https://github.com/Microsoft/vscode/issues/11050) to display the name of the extension when there's a conflict between two or more shortcuts.
-
-For now, to pick the snippet bundled in this extension, look for "iOS Snippets" on the hint box as shown below.
-
-![readme](https://cloud.githubusercontent.com/assets/19753339/18027052/0a5d392a-6c59-11e6-9722-e5a81199696b.png)
 
 # License
 

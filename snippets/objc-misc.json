@@ -3,14 +3,14 @@
         "body": [
             "#import <${Framework}/${HeaderFile}.h>"
         ],
-        "description": "Import Framework Header File - iOS Snippets",
+        "description": "Import Framework Header File",
         "prefix": "#import-framework"
     },
     "Import Local Header": {
         "body": [
             "#import \"${HeaderFile}.h\""
         ],
-        "description": "Import Local Header File - iOS Snippets",
+        "description": "Import Local Header File",
         "prefix": "#import-local"
     },
     "Objective-C -debugDescription Method": {
@@ -20,7 +20,7 @@
             "\treturn [NSString stringWithFormat:@\"<%@: %p> ${additional format string}\", [self class], self, ${additional arguments}];",
             "}"
         ],
-        "description": "Objective-C -debugDescription Method - iOS Snippets",
+        "description": "Objective-C -debugDescription Method",
         "prefix": "debugDescription"
     },
     "Objective-C -description Method": {
@@ -30,7 +30,7 @@
             "\treturn [NSString stringWithFormat:@\"${format string}\", ${arguments}];",
             "}"
         ],
-        "description": "Objective-C -description Method - iOS Snippets",
+        "description": "Objective-C -description Method",
         "prefix": "description"
     },
     "Objective-C -init Method": {
@@ -46,7 +46,7 @@
             "\treturn self;",
             "}"
         ],
-        "description": "Objective-C -init Method - iOS Snippets",
+        "description": "Objective-C -init Method",
         "prefix": "init"
     },
     "Objective-C -initWithCoder: Method": {
@@ -62,7 +62,7 @@
             "\treturn self;",
             "}"
         ],
-        "description": "Objective-C -initWithCoder: Method - iOS Snippets",
+        "description": "Objective-C -initWithCoder: Method",
         "prefix": "initWithCoder"
     },
     "Objective-C -initWithFrame: Method": {
@@ -78,7 +78,7 @@
             "\treturn self;",
             "}"
         ],
-        "description": "Objective-C -initWithFrame: Method - iOS Snippets",
+        "description": "Objective-C -initWithFrame: Method",
         "prefix": "initWithFrame"
     },
     "Objective-C Do-While Statement": {
@@ -87,7 +87,7 @@
             "\t${statements}",
             "} while (${condition});"
         ],
-        "description": "Objective-C Do-While Statement - iOS Snippets",
+        "description": "Objective-C Do-While Statement",
         "prefix": "do"
     },
     "Objective-C Enumerated Type Declaration (NS_ENUM)": {
@@ -98,7 +98,7 @@
             "\t${valueC},",
             "};"
         ],
-        "description": "Objective-C Enumerated Type Declaration (NS_ENUM) - iOS Snippets",
+        "description": "Objective-C Enumerated Type Declaration (NS_ENUM)",
         "prefix": "enum"
     },
     "Objective-C Enumerated Type Declaration (NS_OPTIONS)": {
@@ -109,7 +109,7 @@
             "\t${valueC} = 1 << 2,",
             "};"
         ],
-        "description": "Objective-C Enumerated Type Declaration (NS_OPTIONS) - iOS Snippets",
+        "description": "Objective-C Enumerated Type Declaration (NS_OPTIONS)",
         "prefix": "options"
     },
     "Objective-C Fast Enumeration": {
@@ -118,7 +118,7 @@
             "\t${statements}",
             "}"
         ],
-        "description": "Objective-C Fast Enumeration - iOS Snippets",
+        "description": "Objective-C Fast Enumeration",
         "prefix": "forin"
     },
     "Objective-C For Statement": {
@@ -127,7 +127,7 @@
             "\t${statements}",
             "}"
         ],
-        "description": "Objective-C For Statement - iOS Snippets",
+        "description": "Objective-C For Statement",
         "prefix": "for"
     },
     "Objective-C If Statement": {
@@ -136,7 +136,7 @@
             "\t${statements}",
             "}"
         ],
-        "description": "Objective-C If Statement - iOS Snippets",
+        "description": "Objective-C If Statement",
         "prefix": "if"
     },
     "Objective-C If-Else Statement": {
@@ -147,14 +147,14 @@
             "\t${statementB}",
             "}"
         ],
-        "description": "Objective-C If-Else Statement - iOS Snippets",
+        "description": "Objective-C If-Else Statement",
         "prefix": "ifelse"
     },
     "Objective-C Property": {
         "body": [
             "@property (${memory}, ${atomicity}, ${nullability}) ${class name/type} ${property name};"
         ],
-        "description": "Objective-C Property - iOS Snippets",
+        "description": "Objective-C Property",
         "prefix": "@property"
     },
     "Objective-C Switch Statement": {
@@ -168,21 +168,21 @@
             "\t} break;",
             "}"
         ],
-        "description": "Objective-C Switch Statement - iOS Snippets",
+        "description": "Objective-C Switch Statement",
         "prefix": "switch"
     },
     "Pragma Mark": {
         "body": [
             "#pragma mark - ${argument}"
         ],
-        "description": "Pragma Mark - iOS Snippets",
+        "description": "Pragma Mark",
         "prefix": "#pragma"
     },
     "Print to console": {
         "body": [
             "NSLog(@\"========> %@\", $1);"
         ],
-        "description": "Log output to console - iOS Snippets",
+        "description": "Log output to console",
         "prefix": "log"
     }
 }

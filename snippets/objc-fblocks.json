@@ -5,21 +5,21 @@
             "\t$0",
             "};"
         ],
-        "description": "Block as a local variable - iOS Snippets",
+        "description": "Block as a local variable",
         "prefix": "block-as-local-variable"
     },
     "Block as a method parameter": {
         "body": [
             "(${returnType} (^)(${parameterTypes}))${blockName};"
         ],
-        "description": "Block as a method parameter - iOS Snippets",
+        "description": "Block as a method parameter",
         "prefix": "block-as-method-parameter"
     },
     "Block as a property": {
         "body": [
             "@property (copy, nonatomic, ${nullability}) ${returnType} (^${blockName})(${parameterTypes});"
         ],
-        "description": "Block as a property - iOS Snippets",
+        "description": "Block as a property",
         "prefix": "block-as-property"
     },
     "Block as a typedef": {
@@ -29,7 +29,7 @@
             "\t$0",
             "};"
         ],
-        "description": "Block as a typedef - iOS Snippets",
+        "description": "Block as a typedef",
         "prefix": "block-as-typedef"
     },
     "Block as an argument to a method call": {
@@ -38,7 +38,7 @@
             "\t$0",
             "};"
         ],
-        "description": "Block as an argument to a method call - iOS Snippets",
+        "description": "Block as an argument to a method call",
         "prefix": "block-as-argument-to-method-call"
     }
 }
